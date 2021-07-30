@@ -33,7 +33,6 @@ const output = babel.transformSync(code, {
                 } else {
                   // For first parameter;
                   let first = typeCheckAndReturn(node, 0);
-                  console.log(first);
                   // For second parameter
                   let second = typeCheckAndReturn(node, 1);
                   path.replaceWith(
