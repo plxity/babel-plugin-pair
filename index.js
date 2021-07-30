@@ -1,5 +1,5 @@
 const babel = require('@babel/core');
-const code = 'const car = pair(model , speed)';
+const code = 'const car = pair(model , "speed")';
 
 console.log(code);
 
