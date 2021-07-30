@@ -32,6 +32,11 @@ const car = {
 }
 ```
 
+## To-Do
+
+1. Publish it as a npm module
+2. Restrict user from adding more keys (only first and second key should be there).
+
 ## How to run
 
 1. Clone this repo
